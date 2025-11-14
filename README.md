@@ -116,7 +116,7 @@ The entire study is designed to be run in a clear, multi-step process:
         * Bilingual support (Chinese & English).
         * Export functionality to download the user's answers as `.txt` or `.json`.
 * **`quiz_with_standard_answers_CN.txt`**
-    * The "ground truth" or "ideal" answer key. Each line contains one of the 233 questions followed by the "correct" score (1-9) for a desirable candidate.
+    * The "ground truth" or "ideal" answer key. Each line contains one of the 216 questions followed by the "correct" score (1-9) for a desirable candidate.
 * **`quiz_CN.txt`** / **`quiz_EN.txt`**
     * Simple text files containing the 216 questions, used for feeding into the "candidate" LLM.
 
