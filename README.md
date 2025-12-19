@@ -25,7 +25,7 @@ This repository is structured into several key components that work together to 
 | 🔬 **Core Framework** | [`job-seeker/`](./job-seeker/) | The main Flask application, containing the two simulation backends (`candidate.py`, `hr.py`) and their web UIs. |
 | 🧠 **Prompting** | [`prompt_template.txt`](./prompt_template.txt) | The "brain" of the experiment, containing the detailed system prompts that define the roles and strategies for the LLMs. |
 | 📊 **Analysis** | [`job-seeker/calculate.py`](./job-seeker/calculate.py) | A Python script for quantitative analysis, comparing an LLM's answers to a "ground truth" baseline using RMSE and Pearson Correlation. |
-| 🗃️ **Quiz Data** | `quiz_EN.txt`, `quiz_CN.txt`, `quiz_with_standard_answers_CN.txt` | The raw questions in English and Chinese, plus the "ideal" answer key for quantitative scoring. |
+| 🗃️ **Quiz Data** | `quiz_EN.txt`, `quiz_CN.txt`, `quiz_with_standard_answers_EN.txt` | The raw questions in English and Chinese, plus the "ideal" answer key for quantitative scoring. |
 
 ---
 
