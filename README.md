@@ -112,7 +112,7 @@ The entire study is designed to be run in a clear, multi-step process:
 * **`quiz.html`**
     * A single, standalone HTML file that functions as a complete personality quiz app. It features:
         * 216 questions.
-        * A 1-9 point Likert scale ("Very Strongly Disagree" to "Very Strongly Agree").
+        * A 1-9 point Likert scale ("Strongly Disagree" to "Very Strongly Agree").
         * Bilingual support (Chinese & English).
         * Export functionality to download the user's answers as `.txt` or `.json`.
 * **`quiz_with_standard_answers_CN.txt`**
